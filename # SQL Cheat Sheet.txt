@@ -1,0 +1,50 @@
+# SQL Cheat Sheet
+
+## SQL Basics (Queries)
+
+- **SELECT** – Retrieves data  
+  `SELECT column FROM table`
+
+- **FROM** – Specifies the table  
+  `SELECT * FROM users`
+
+- **WHERE** – Filters rows  
+  `WHERE age > 25`
+
+- **ORDER BY** – Sorts results  
+  `ORDER BY name ASC` (A-Z) / `DESC` (Z-A)
+
+- **DISTINCT** – Removes duplicates  
+  `SELECT DISTINCT country`
+
+- **AND / OR** – Combine conditions  
+  `WHERE age > 25 AND city = 'Stockholm'`
+
+- **Inequality Operators**  
+  `>`, `<`, `=`, `!=`, `>=`, `<=`
+
+---
+
+## Modifying Data
+
+- **UPDATE** – Changes existing values  
+  Updates rows in a table.
+
+- **DELETE** – Removes rows  
+  Deletes specific rows based on condition.
+
+---
+
+## Table Management
+
+- **CREATE TABLE** – Makes a new table  
+  You define columns and data types.
+
+- **ALTER TABLE** – Edits a table  
+  Example: Add/remove/change a column
+
+- **DROP TABLE** – Deletes the entire table  
+  Removes table and all its data forever.
+
+- **TRUNCATE TABLE** – Deletes all rows but keeps the table  
+  Empties the table without deleting its structure.
